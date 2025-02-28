@@ -1,5 +1,27 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background-color: lightslategray;
+  color: purple;
+}
+button {
+  border-radius: 12px;
+  padding: 14px 40px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: purple;
+}
+
+img {
+  border-radius: 10px;
+  width: 900px;
+  height: 450px;
+}
+#text {
+  border-style: solid;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 200%;
 }
